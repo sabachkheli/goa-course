@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#parrentD{
+    width: 700px;
+    padding: 20;
+    height: 700px;
+    border-radius: 15px;
+    border: black 1px solid;
+}
+
+#imgD{
+    width: 320px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#Pp{
+    background: hsl(47, 88, 63);
+}

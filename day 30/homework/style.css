@@ -1,0 +1,19 @@
+#h1 {
+    color: lightslategray; text-align: center;
+}
+
+.h1 {
+    color: aquamarine; text-align: right;
+}
+
+body {
+    background-color: darkblue;
+}
+
+.duo {
+    color: darkred; text-align: left
+}
+
+button {
+    color: navajowhite; text-align: center; background-color: black;
+}

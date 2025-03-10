@@ -1,0 +1,19 @@
+input{
+    border: 1px;
+    font-size: medium;
+    color: red;
+}
+
+
+
+
+body{
+    background-color: blue;
+}
+
+
+img{
+    width: 400px;
+    height: 400px;
+}
+

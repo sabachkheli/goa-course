@@ -1,0 +1,24 @@
+#heading1 {
+    color: red;
+}
+
+#heading2{
+    color: green;
+}
+
+#heading3 {
+    color: blue; 
+ }
+
+th {
+    color: black; background-color: orange;
+}
+.name{
+    background-color: orange; color: black;
+}
+.name2{
+    background-color: orange; color: black;
+}
+.name3{
+    background-color: orange; color: black;
+}

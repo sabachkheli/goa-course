@@ -1,0 +1,11 @@
+table :nth-child(odd){
+    background-color: grey; 
+}
+
+table :nth-child(even){
+    background-color: orange; 
+}
+
+table {
+    width: 350px; height: 300px;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Sixtyfour&display=swap');
+#div1{ 
+    font-family:'rubik-vinyl-regular' ;
+}
+
+
+
+#div2{
+    font-family:'sixtyfour-<uniquifier' ;
+}
+
+#div3{
+    font-family:'montserrat-<uniquifier';
+}
+
+h1{
+    color:red; text-shadow:none;
+}
+
+h2{
+    color:blue
+}
+
+h3{
+    color:black; text-decoration: underline
+}
