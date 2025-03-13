@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+
+.holiday-div {
+    width: 50%;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+
+.holiday-div img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.holiday-div p {
+    font-size: 18px;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .holiday-div {
+        width: 80%;
+    }
+    .holiday-div img {
+        max-width: 250px;
+    }
+    .holiday-div p {
+        font-size: 16px;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+
+.responsive-div {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    background: lightblue;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .responsive-div {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .responsive-div {
+        width: 20%;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-div {
+        width: 10%;
+    }
+}

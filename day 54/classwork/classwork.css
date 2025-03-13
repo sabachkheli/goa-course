@@ -1,0 +1,52 @@
+div{
+    width: 75%;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(10, 9, 77);
+}
+
+h1 {
+    height: 300px;
+}
+
+p{
+    height: 300px;
+}
+
+img{
+
+    height: 300px;
+}
+
+@media (max-width: 1024px) {
+    .car-container {
+        width: 85%; /* პლანშეტისთვის 85% */
+    }
+}
+
+@media (max-width: 768px) {
+    .car-container {
+        width: 90%; /* პატარა ეკრანებისთვის */
+        padding: 15px;
+    }
+
+    .car-container img {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .car-container {
+        width: 95%; /* მობილურებისთვის */
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 18px; /* სათაურის ზომის შემცირება */
+    }
+
+    p {
+        font-size: 
+    }
