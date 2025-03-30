@@ -1,0 +1,77 @@
+.rotate-div {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    animation: rotate-animation 2s 2s forwards;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+        background-color: blue;
+        transform: scale(1);
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: red;
+        transform: scale(2);
+    }
+}
+
+.animated-div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: transform-animation 7s infinite;
+    border-radius: 0;
+}
+
+@keyframes transform-animation {
+    0% {
+        border-radius: 0;
+        transform: translateX(0);
+        background-color: blue;
+    }
+    50% {
+        border-radius: 50%;
+        transform: translateX(100px);
+        background-color: green;
+    }
+    100% {
+        border-radius: 50%;
+        transform: translateX(0);
+        background-color: blue;
+    }
+}
+
+
+
+
+
+
+
+.sun {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: rise-animation 3s forwards;
+    transform: translateX(-50%);
+}
+
+@keyframes rise-animation {
+    0% {
+        bottom: 0;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+    100% {
+        bottom: 100%;
+        background-color: yellow;
+        width: 200px;
+        height: 200px;
+    }
+}

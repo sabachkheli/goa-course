@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.boxex {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: changeBox 4s infinite;
+}
+
+@keyframes changeBox {
+    50% {
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+}

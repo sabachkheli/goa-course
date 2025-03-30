@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.boxi {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    animation: changeBox 5s ease-in-out 2s forwards;
+    animation: infinite;
+}
+
+@keyframes changeBox {
+    100% {
+        width: 400px;
+        height: 300px;
+        background-color: orange;
+    }
+}

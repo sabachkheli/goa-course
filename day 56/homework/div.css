@@ -1,0 +1,55 @@
+.outer-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s ease-in-out;
+}
+
+.inner-box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: transform 1s ease-in-out;
+}
+
+
+.outer-box:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+
+.outer-box:hover .inner-box {
+    transform: rotate(360deg);
+}
+
+
+
+
+
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease-in-out;
+}
+
+
+.image:hover {
+    width: 150px;
+    height: 150px;
+    transform: translate(100px, -200px);
+    border-radius: 50%;
+}
+</style>

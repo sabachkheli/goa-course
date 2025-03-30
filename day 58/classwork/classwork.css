@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: moveBox 5s infinite;
+}
+
+@keyframes moveBox {
+    25% {
+        transform: translateY(-40px);
+        background-color: red;
+    }
+    50% {
+        transform: translateY(-40px) translateX(60px);
+        background-color: green;
+    }
+    75% {
+        transform: translateX(60px);
+        background-color: yellow;
+    }
+    100% {
+        transform: translateX(0);
+        background-color: blue;
+    }
+}
+
+
+
+
+
