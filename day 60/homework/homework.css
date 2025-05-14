@@ -1,0 +1,31 @@
+.container {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(2, 100px);
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+.item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+.item1 { background-color: teal; 
+}
+.item2 { background-color: indianred; 
+}
+.item3 { background-color: yellowgreen; 
+}
+.item4 { background-color: deepskyblue; 
+}
+.item5 { background-color: darkorange; 
+}
+.item6 { background-color: mediumorchid; 
+}
